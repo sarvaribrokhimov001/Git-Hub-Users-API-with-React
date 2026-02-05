@@ -135,7 +135,7 @@ function App() {
 
           {user && (
             <div className="card">
-              <img src={user.avatar_url} width="120" style={{ borderRadius: "50%" }} />
+              <img src={user.avatar_url} alt="user__img" width="120" style={{ borderRadius: "50%" }} />
               <h2 className="username">Username: {user.login}</h2>
               <p className="followers">Followers: {user.followers}</p>
               <p className="followers">Following: {user.following}</p>
